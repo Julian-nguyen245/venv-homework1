@@ -1,12 +1,10 @@
 # Bài tập 1: Môi trường ảo, máy ảo, container và cơ sở dữ liệu quan hệ
 
-Repo nộp bài. Báo cáo viết bằng LaTeX (tiếng Việt), repo chỉ chứa bản PDF, kèm demo chạy được.
-
 | Thư mục | Nội dung | Trạng thái chạy thử |
 |---|---|---|
 | `01-venv/` | Demo `venv`, `virtualenv`, `uv`, `conda`; hướng dẫn `pyenv` | `venv`, `virtualenv`, `uv`, `conda` đã chạy (Ubuntu 22.04). `pyenv` chỉ là hướng dẫn |
 | `02-vm/` | Hướng dẫn tạo máy ảo (Multipass, VirtualBox, Vagrant) | Đã demo trên máy ảo Ubuntu 24.04 của Killercoda (ảnh chụp: [`docs/Screenshot from 2026-11-17 20-40-18.png`](<docs/Screenshot from 2026-11-17 20-40-18.png>)). Các cách cài hypervisor trên máy cá nhân chỉ là hướng dẫn |
-| `03-docker/` | Dockerfile, Compose, script demo | Đã chạy trên máy cá nhân: `docker build` từ `Dockerfile`, chạy container, `curl`, `exec` (kết quả trong `docs/bao-cao-moi-truong.pdf`); `hello-world` cũng chạy trên Killercoda. `docker compose` cũng đã chạy (cần plugin: `sudo apt install docker-compose-v2`) |
+| `03-docker/` | Dockerfile, Compose, script demo | Đã chạy trên máy cá nhân: `docker build` từ `Dockerfile`, chạy container, `curl`, `exec` (kết quả trong `docs/bao-cao-moi-truong.pdf`); `hello-world` cũng chạy trên Killercoda. `docker compose` cũng đã chạy |
 | `04-sql/` | Schema, dữ liệu mẫu, truy vấn MySQL; chạy Postgres bằng Docker | Hướng dẫn cài đặt + file demo để tự chạy thử (không kèm kết quả chạy) |
 
 
