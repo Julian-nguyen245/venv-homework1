@@ -16,6 +16,10 @@ docker logs hw1-web | tail -3
 docker rm -f hw1-web
 
 echo "== Docker Compose =="
-docker compose up -d --build
-sleep 1; curl -s localhost:8000
-docker compose down
+if docker compose version >/dev/null 2>&1; then
+  docker compose up -d --build
+  sleep 1; curl -s localhost:8000
+  docker compose down
+else
+  echo "Bỏ qua: chưa cài plugin Compose (sudo apt install docker-compose-v2)"
+fi
